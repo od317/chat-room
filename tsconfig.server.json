@@ -1,0 +1,17 @@
+{
+    "extends": "./tsconfig.base.json",
+    "compilerOptions": {
+        "outDir": "./dist/server",
+        "target": "es2020",
+        "lib": ["es2020"],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noEmit": false,
+        "isolatedModules": false,
+        "jsx": "react-jsx"
+    },
+    "include": [
+        "server/**/*.ts",
+        "server/**/*.mts"
+    ],
+}
